@@ -1365,7 +1365,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6050,6 +6050,74 @@ Transform:
   - {fileID: 1921843464}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &961095575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 274.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4452019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 964ade490ed4dc94e9cc10c99a32b989,
+        type: 3}
+      propertyPath: m_Name
+      value: Chicken_fence
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 964ade490ed4dc94e9cc10c99a32b989, type: 3}
 --- !u!4 &961545112 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3255196238204180001, guid: ff3a3a5eabe51344fa53f9c98ab51af8,
@@ -7732,7 +7800,7 @@ Terrain:
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: f28d4de0d987ac243ab5579c177734a9, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 500
+  m_TreeBillboardDistance: 180
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
@@ -7988,6 +8056,16 @@ PrefabInstance:
     - target: {fileID: 3255196238204180001, guid: ff3a3a5eabe51344fa53f9c98ab51af8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567536593908656389, guid: ff3a3a5eabe51344fa53f9c98ab51af8,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567536593908656389, guid: ff3a3a5eabe51344fa53f9c98ab51af8,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8683,7 +8761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 177638, guid: 0abab5bb77339e4428787a870eb31bd3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11496292, guid: 0abab5bb77339e4428787a870eb31bd3, type: 3}
       propertyPath: m_fpsModuleState
@@ -14543,6 +14621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraController
       objectReference: {fileID: 0}
+    - target: {fileID: 2889722291863356184, guid: de885e9e3111a2d4eb659acf6d768bee,
+        type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3130145583493780853, guid: de885e9e3111a2d4eb659acf6d768bee,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -14602,11 +14685,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8522442919926706711, guid: de885e9e3111a2d4eb659acf6d768bee,
-        type: 3}
-      propertyPath: minHeight
-      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14756,3 +14834,4 @@ SceneRoots:
   - {fileID: 2013423062}
   - {fileID: 996568841}
   - {fileID: 1529223772}
+  - {fileID: 961095575}
