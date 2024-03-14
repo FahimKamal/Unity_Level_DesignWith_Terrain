@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1990887812693f84695380cc730cea31
+guid: f5092a7e5515c7e498bb5e51d7d80aac
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Farm_Mat
-    second: {fileID: 2100000, guid: d33b30a6b40311d42be1333186c90db9, type: 2}
+      name: lambert4
+    second: {fileID: 2100000, guid: f7042a8933666de48943d3fb2ab2efee, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
