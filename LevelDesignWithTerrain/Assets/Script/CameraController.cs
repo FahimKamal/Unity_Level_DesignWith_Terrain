@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems; // Required for the EventTrigger
@@ -18,6 +19,11 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float speed = 10;
 
     private Vector3 moveDirection = Vector3.zero;
+
+    private void Awake()
+    {
+        Application.targetFrameRate = 120; // Set the target frame rate to 120 FPS
+    }
 
     // Update is called once per frame
     void Update()
