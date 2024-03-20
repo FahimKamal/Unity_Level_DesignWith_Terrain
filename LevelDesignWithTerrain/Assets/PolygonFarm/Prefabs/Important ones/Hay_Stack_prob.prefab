@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3365943906218492461}
   m_Layer: 0
-  m_Name: Hay_Stack
+  m_Name: Hay_Stack_prob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
