@@ -23,13 +23,18 @@ MonoBehaviour:
       StencilLayer: 8
       Color: {r: 0, g: 0, b: 0, a: 0}
       Thickness: 0.02
+      FixedScreenSpaceThickness: 0
       NoiseAmplitude: 0.015
       NoiseFrequency: 1000
+      OverrideMaterial: {fileID: 0}
       NormalsSource: 0
-      VertexColorThicknessSource: 1
       DepthBias: 0
       MaxDistance: 15
       DistanceFade: 0.1
+      PrePassIgnoreMask: 0
+      CameraOverrides:
+        Enabled: 0
+        FieldOfView: 0
     - Name: Thin (Inner)
       LayerMask:
         serializedVersion: 2
@@ -37,10 +42,15 @@ MonoBehaviour:
       StencilLayer: 0
       Color: {r: 0, g: 0, b: 0, a: 0}
       Thickness: 0.0125
+      FixedScreenSpaceThickness: 0
       NoiseAmplitude: 0
       NoiseFrequency: 0
+      OverrideMaterial: {fileID: 0}
       NormalsSource: 0
-      VertexColorThicknessSource: 1
-      DepthBias: -1.5
+      DepthBias: -0.38
       MaxDistance: 15
       DistanceFade: 0.1
+      PrePassIgnoreMask: 0
+      CameraOverrides:
+        Enabled: 0
+        FieldOfView: 0
