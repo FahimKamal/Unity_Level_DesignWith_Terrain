@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f6a429550954192bf507d745572b8de, type: 3}
-  m_Name: Toon Render Pipeline Asset (Low)
+  m_Name: Toon Render Pipeline Asset (Low MSAA Upscale)
   m_EditorClassIdentifier: 
   ForceIncludedShaders:
   - {fileID: 4800000, guid: 32cf79821a574ca29fd7697e92aae19d, type: 3}
+  - {fileID: 4800000, guid: 11527595c9484fb09a4ee48b0e47204f, type: 3}
   - {fileID: 4800000, guid: 48be904f99f74bee85d2e82c67910da8, type: 3}
   - {fileID: 4800000, guid: 3774c88acba044f58195398345cfc7cd, type: 3}
+  - {fileID: 4800000, guid: 7be86da3d47840bd8b73ba28db1a2ca1, type: 3}
+  - {fileID: 4800000, guid: 2268c7f425a8453ba9e77607d402a9b4, type: 3}
+  - {fileID: 4800000, guid: 4aee5d6e842043a384557e2f0557f76c, type: 3}
   GlobalRampSettings:
     Threshold: 0
     SpecularThreshold: 0.79
@@ -37,8 +41,8 @@ MonoBehaviour:
     RenderTextureFormat: 67
     AllowHdr: 0
     Stencil: 0
-    Msaa: 1
-    RenderScale: 1
+    Msaa: 8
+    RenderScale: 0.75
     MaxRenderTextureWidth: 0
     MaxRenderTextureHeight: 0
     RenderTextureFilterMode: 1
@@ -49,7 +53,7 @@ MonoBehaviour:
       m_Bits: 4294967295
     TransparentLayerMask:
       serializedVersion: 2
-      m_Bits: 247
+      m_Bits: 4294967295
     UseSrpBatching: 1
     UseDynamicBatching: 0
     ForceRenderToIntermediateBuffer: 0
@@ -60,7 +64,7 @@ MonoBehaviour:
     Threshold: 0.422
     CrispAntiAliased: 1
     Smoothness: 1
-    MaxDistance: 25
+    MaxDistance: 250
     DistanceFade: 0.354
     Pattern: {fileID: 2800000, guid: 370591c24596965498bac30a92b5a7cf, type: 3}
     PatternScale: {x: 1, y: 0, z: 1}
@@ -77,7 +81,8 @@ MonoBehaviour:
         Mode: 0
         EarlyBail: 0
         Spread: 1.373
-        RotatedPoissonSamplingTexture: {fileID: 11700000, guid: 4adf240cd9847b14085d5b3253f0d979, type: 2}
+        RotatedPoissonSamplingTexture: {fileID: 11700000, guid: 4adf240cd9847b14085d5b3253f0d979,
+          type: 2}
       LightBleedingReduction: 0.001
       PrecisionCompensation: 0
       Directional:
