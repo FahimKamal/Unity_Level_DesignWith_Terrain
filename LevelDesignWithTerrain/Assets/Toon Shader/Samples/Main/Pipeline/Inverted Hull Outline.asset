@@ -29,7 +29,7 @@ MonoBehaviour:
       OverrideMaterial: {fileID: 0}
       NormalsSource: 0
       DepthBias: 0
-      MaxDistance: 15
+      MaxDistance: 150
       DistanceFade: 0.1
       PrePassIgnoreMask: 0
       CameraOverrides:
